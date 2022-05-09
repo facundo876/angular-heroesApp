@@ -29,5 +29,10 @@ export class LoginComponent implements OnInit {
       });
 
   }
+  
+  ingresarSinLogin(){
+    
+    this.router.navigate(['./heroes/listado'])
+  }
 
 }
